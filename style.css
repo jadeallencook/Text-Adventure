@@ -1,0 +1,33 @@
+/* normalize */
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+div {
+    display: inline-block;
+}
+
+/* main app */
+
+div#app,
+div#story-info {
+    width: 75%;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+div#app {
+    background-color: white;
+    height: 500px;
+}
+
+div#story-info {
+    color: white;
+    border: solid thin white;
+    padding: 15px;
+    text-align: left;
+}
